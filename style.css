@@ -76,8 +76,6 @@ body {
     max-width: 853px;
     width: 100%;
     height: 284px;
-    left: 295px;
-    top: 293px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 200;
@@ -90,6 +88,7 @@ body {
     margin-left: 295px;
     margin-right: 292px;
     margin-top: 187px;
+    
 }
 .solutions {
     font-family: 'Oswald';
