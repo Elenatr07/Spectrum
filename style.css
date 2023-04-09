@@ -104,7 +104,7 @@
     text-align: center;
     letter-spacing: 0.25em;
     color: #FFFFFF;
-    padding-top: 155px;
+    padding-top: 115px;
 }
 .product_item {
     display: flex;
@@ -215,7 +215,40 @@
     align-items: center;
     margin-top: 47px;
 }
-
+.first_list_central_ru {
+    max-width: 1298px;
+    width: 100%;
+    height: 284px;
+    left: 295px;
+    top: 293px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 96px;
+    line-height: 142px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 187px;
+}
+.brand_product_item_ru {
+    width: 630px;
+    margin-right: 80px;
+    
+    
+}
+.product_item_ru {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1071px;
+    width: 100%;
+    margin-left: 196px;
+    
+}
 
 
 
