@@ -5,7 +5,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color:#000E32;
+    background-color:#dee0e7;
+    overflow-x: hidden;
   }
 
 
@@ -23,11 +24,14 @@ body {
     height: 893px;
     left: 0px;
     top: 0px;
-    
+    background-image: url(img/XTpm.gif);
+    background-size: 1448px 853px;
+    background-blend-mode:screen
     
     
     
 }
+
 .products {
     background-color:#000E32 ;
     width: 100%;
@@ -58,7 +62,9 @@ body {
 }
 
 .logo {
-    margin-left: 0;
+    margin-left: 28px;
+    margin-top: 28px;
+
 }
 
 .link_contact, .link_about, .link_products, .link_ru {
@@ -89,6 +95,8 @@ body {
     margin-right: 292px;
     margin-top: 187px;
     
+    
+    
 }
 .solutions {
     font-family: 'Oswald';
@@ -100,6 +108,8 @@ body {
     display: flex;
     justify-content: center;
     color: #E9D758; 
+    text-shadow: 0 0 10px #e1c733;
+    
 }
 .title {
     font-family: 'Roboto';
@@ -160,6 +170,7 @@ body {
     font-size: 15px;
     line-height: 30px;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .products-item-btn {
    max-width: 186px;
@@ -255,6 +266,145 @@ body {
     margin-left: 196px;
     
 }
+.contact {
+    background-color: #000E32;
+    width: 100%;
+    max-width: 1448px;
+    height: 100%;
+}
+.contact_text_block {
+    width: 885px;
+    height: 266px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 142px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #E9D758; 
+    display: flex;
+    margin-left: 297px;
+    margin-top: 85px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 612px;
+    
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-right: 164px;
+}
+.title_form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFBFB;
+    margin-bottom: 18px;
+}
+
+input {
+    height: 44px;
+    background: #F9F9F6;
+    border: 1px solid #CED0C2;
+    box-shadow: inset 0px -8px 16px rgba(33, 34, 28, 0.05);
+    border-radius: 4px;
+    margin-bottom: 18px;
+    padding: 0 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.text_field {
+    height: 218px;
+    background: #F9F9F6;
+    border: 1px solid #CED0C2;
+    box-shadow: inset 0px -16px 32px rgba(33, 34, 28, 0.05);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 59px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+.send-form {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 165px;
+    height: 45px;
+    border: 1px solid #E9D758;
+    background-color: #000E32;
+    align-self: center;
+    margin-bottom: 161px;
+}
+.title_address, .title_contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+    
+    
+}
+
+.title_address {
+    margin-top: 124px;
+    margin-bottom: 40px;
+}
+
+.title_contacts {
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+.post_address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.address {
+    width: 287px;
+}
+.span_email {
+    color: #E9D758;
+}
+
+footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 22px;
+    height: 36px;
+}
+
+
 
 
 
