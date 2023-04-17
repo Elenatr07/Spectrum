@@ -9,7 +9,16 @@ body {
     overflow-x: hidden;
   }
 
+.form input.error{
+    border-color:red;
+}
 
+.label.error{
+    display: none!important;
+}
+.error {
+    color: red;
+}    
 .container {
     width: 1448px;
     display: block; 
