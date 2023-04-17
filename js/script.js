@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 
-	$(".phone").mask("+99 (999) 999-99-99");
+	$(".phone").mask("+99999999999");
 
 
 	jQuery('.send-form').click(function () {
