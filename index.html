@@ -155,19 +155,22 @@
             <h3>WE’D LOVE TO HEAR FROM YOU </h3>
             </div>
             <div class="form">
-                <form action="sender.php" method="post">
+                <form action="sender.php" method="post" id="formmain">
                     <p class="title_form">Name (field required)</p>
-                    <input type="text" class="name" name="name" placeholder="John Doe" required>
+                    <input type="text" class="name" name="name" placeholder="John Doe" required id="formname">
                     <p class="title_form">Email</p>
-                    <input type="email" class="name" name="email" placeholder="JohnDoes@email.com" required>
+                    <input type="email" class="name" name="email" placeholder="JohnDoes@email.com" required id="formemail">
                     <p class="title_form">Phone number(field required)</p>
-                    <input type="text" class="phone" name="phone" placeholder="1111-111-11-1">
+                    <input type="text" class="phone" name="phone" placeholder="1111-111-11-1" id="formphone">
                     <p class="title_form">Message (field required)</p>
-                    
-                    <textarea name="text" id="" cols="30" rows="10" class="text_field"
+                    <div class="send_status">
+                        <textarea name="text" id="formtext" cols="30" rows="10" class="text_field"
                     placeholder="Your messege"></textarea>
-                    <button type="button" class="send-form">Send Message</button>
-                    <div class="status"></div>
+                        <div class="status"></div>
+                    </div>
+                    
+                    <button type="button" class="send-form" onClick="setTimeout('clearform()', 2000 );">Send Message</button>
+                    
                 </form>
                 <div class="address">
                     <h3 class="title_address">Address</h3>

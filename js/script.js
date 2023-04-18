@@ -16,17 +16,31 @@ jQuery(document).ready(function () {
 				dataType: 'html',
 				data: form.serialize(),
 				success: function (data) {
+					
 					//form.html(data);
-					//form.css('opacity','1');
-					form.find('.status').html('форма отправлена успешно');
+					form.css('opacity','1');
+					form.find('.status').html('form submitted successfully');
+					form.find('.status').css('opacity', '1');
 					//$('#myModal').modal('show') // для бутстрапа
+					
 				},
+				
 				error: function () {
 					form.find('.status').html('серверная ошибка');
 				}
 			});
 		}
+		
 	});
 
 
 });
+function clearform()
+{
+    document.getElementById("formname").value=""; //don't forget to set the textbox id
+    document.getElementById("formemail").value="";
+	document.getElementById("formphone").value="";
+	document.getElementById("formtext").value="";
+}
+
+
