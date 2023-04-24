@@ -28,6 +28,9 @@ body {
 }
 
 
+
+
+
 .first_list {
     background-color: #0B183A;
     width: 100%;
@@ -48,42 +51,10 @@ body {
     width: 100%;
     max-width: 1448px;
 }
-.header_page {
-    display: flex;
-    justify-content: space-between;
-}
-.link_block {
-    justify-content: space-between;
-    max-width: 383px;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    margin-top: 24px;
-    padding-right: 45px;
-    
-}
 
-.link_block_ru {
-    justify-content: space-between;
-    max-width: 440px;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    margin-top: 24px;
-    padding-right: 45px;
-    
-}
-.link {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FAF4F4;
 
-    
-}
+
+
 
 .link_btn {
     text-decoration: none;
@@ -98,35 +69,9 @@ body {
     
 }
 
-.link_link {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FAF4F4;
-    padding: 13px 45px;
-    
-}
 
-.logo {
-    margin-left: 28px;
-    margin-top: 28px;
 
-}
 
-.link_contact, .link_about, .link_products, .link_ru {
-    padding-top: 12px;
-    text-align: center;
-   
-}
-
-.link_contact {
-  border: 1px solid #E9D758;
-  max-width: 166px;
-  width: 100%;
-}
 .first_list_central {
     max-width: 853px;
     width: 100%;
@@ -151,8 +96,6 @@ body {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 142px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -171,7 +114,7 @@ body {
     color: #FFFFFF;
     padding-top: 115px;
 }
-.product_item {
+.product_item, .product_item_1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -179,12 +122,7 @@ body {
     margin-left: 189px;
 }
 .product_item_1 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1023px;
-    width: 100%;
-    margin-left: 189px;
+    
     flex-direction: row-reverse;
 }
 
@@ -326,6 +264,14 @@ body {
     width: 630px;
     margin-left: 125px;
     
+    
+}
+.products_item_photo_hvl {
+    padding-bottom: 180px;
+}
+
+.products_item_photo_men {
+    padding-bottom: 50px;
     
 }
 .product_item_ru {
@@ -542,4 +488,273 @@ footer {
     color: #000E32;
 }
 
+@media screen and (min-width:320px) and (max-width: 376px) {
+    .container{
+      width: 100%;  
+    }
+    .slogan {
+        font-size: 28px;
+        line-height: 50px;   
+       
+    }
+    .solutions {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .first_list_central {
+        margin-left: 0px ;
+    }
+    .first_list {
+      background-image: none;
+      
+  }
+  .title {
+      font-size: 24px;
+      line-height: 28px;
+  }
+  .product_item_brand_title {
+      font-size: 32px;
+      line-height: 47px;
+      text-align: center;
+  }
+  .product_item, .product_item_1 {
+      display: flex;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 37px;
+      padding-right: 37px;
+      align-self: center;
+  }
+  .brand_product_item {
+      width: 100%;
+  }
+  .product_item_title_text {
+      font-size: 15px;
+      line-height: 30px;
+      text-align: center;
+  }
+  .product_item_text {
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+  }
+  .products_list {
+      margin-top: 37px;
+  }
+  .btn {
+      margin-bottom: 120px;
+      margin-top: 85px;
+      
+  }
+  .products_item_photo {
+      margin-top: 0;
+  }
+  .products_item_photo {
+      margin-bottom: 115px;
+  }
+  .products_item_photo_men {
+      margin-bottom: 120px;
+  }
+  .products_item_photo_trans {
+      margin-top: 0;
+      margin-bottom: 80px;
+  }
+  .btn_last {
+      margin-bottom: 80px;
+  }
+ .about {
+  padding-left: 37px;
+  padding-right: 37px;
+ }
+ .contact {
+  padding-left: 37px;
+  padding-right: 37px;
+ }
+ .contact_text_block {
+  
+  margin-left: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 53px;
+ }
+ .form {
+  
+  width: 100%;
+  justify-content: start;
+  margin-top: 0;
+ }
+ .title_form {
+  font-size: 14px;
+  line-height: 16px
+ }
+ form {
+  width: 100%;
+ }
+ input {
+  height: 39px;
+ }
+ .text_field {
+  margin-bottom: 15px;
+ }
+ .send-form {
+  margin-bottom: 118px;
+ }
+ .title_address {
+  margin-top: 0;
+ }
+ .address {
+  text-align: center;
+  width: 100%;
+ }
+ footer {
+  margin-top: 118px;
+ }
+ .title_address, .title_contacts {
+  font-size: 18px;
+  line-height: 21px;
+ }
+ .post_address {
+  font-size: 14px;
+  line-height: 16px;
+ }
+   
+    
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .container{
+        width: 100%;  
+      }
+      .slogan {
+          font-size: 36px;
+          line-height: 53px;   
+         
+      }
+      .solutions {
+          font-size: 36px;
+          line-height: 53px;
+      }
+      .first_list_central {
+          margin-left: 0px ;
+      }
+      .first_list {
+        background-image: none;
+        
+    }
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .product_item_brand_title {
+        font-size: 32px;
+        line-height: 47px;
+        text-align: center;
+    }
+    .product_item, .product_item_1 {
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 37px;
+        padding-right: 37px;
+        align-self: center;
+    }
+    .brand_product_item {
+        width: 100%;
+    }
+    .product_item_title_text {
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .product_item_text {
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .products_list {
+        margin-top: 37px;
+    }
+    .btn {
+        margin-bottom: 120px;
+        margin-top: 85px;
+        
+    }
+    .products_item_photo {
+        margin-top: 0;
+    }
+    .products_item_photo {
+        margin-bottom: 115px;
+    }
+    .products_item_photo_men {
+        margin-bottom: 120px;
+    }
+    .products_item_photo_trans {
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+    .btn_last {
+        margin-bottom: 80px;
+    }
+   .about {
+    padding-left: 37px;
+    padding-right: 37px;
+   }
+   .contact {
+    padding-left: 37px;
+    padding-right: 37px;
+   }
+   .contact_text_block {
+    
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 53px;
+   }
+   .form {
+    
+    width: 100%;
+    justify-content: start;
+    margin-top: 0;
+   }
+   .title_form {
+    font-size: 14px;
+    line-height: 16px
+   }
+   form {
+    width: 100%;
+   }
+   input {
+    height: 39px;
+   }
+   .text_field {
+    margin-bottom: 15px;
+   }
+   .send-form {
+    margin-bottom: 118px;
+   }
+   .title_address {
+    margin-top: 0;
+   }
+   .address {
+    text-align: center;
+    width: 100%;
+   }
+   footer {
+    margin-top: 118px;
+   }
+   .title_address, .title_contacts {
+    font-size: 18px;
+    line-height: 21px;
+   }
+   .post_address {
+    font-size: 14px;
+    line-height: 16px;
+   }
+  }
 
