@@ -48,42 +48,10 @@ body {
     width: 100%;
     max-width: 1448px;
 }
-.header_page {
-    display: flex;
-    justify-content: space-between;
-}
-.link_block {
-    justify-content: space-between;
-    max-width: 383px;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    margin-top: 24px;
-    padding-right: 45px;
-    
-}
 
-.link_block_ru {
-    justify-content: space-between;
-    max-width: 440px;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    margin-top: 24px;
-    padding-right: 45px;
-    
-}
-.link {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FAF4F4;
 
-    
-}
+
+
 
 .link_btn {
     text-decoration: none;
@@ -98,35 +66,9 @@ body {
     
 }
 
-.link_link {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 15px;
-    line-height: 18px;
-    color: #FAF4F4;
-    padding: 13px 45px;
-    
-}
 
-.logo {
-    margin-left: 28px;
-    margin-top: 28px;
 
-}
 
-.link_contact, .link_about, .link_products, .link_ru {
-    padding-top: 12px;
-    text-align: center;
-   
-}
-
-.link_contact {
-  border: 1px solid #E9D758;
-  max-width: 166px;
-  width: 100%;
-}
 .first_list_central {
     max-width: 853px;
     width: 100%;

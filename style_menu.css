@@ -1,0 +1,321 @@
+.header {
+    
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.header_page {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0B183A;
+    width: 100%;
+
+
+}
+
+.header_logo {
+    width: 390px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 27px;
+}
+
+/* Logo */
+.logo {
+    display: inline-block;
+
+    margin-top: 25px;
+
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FAF4F4;
+}
+
+
+
+
+
+
+.link_link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FAF4F4;
+    padding: 13px 45px;
+    border: 1px solid #E9D758;
+    max-width: 166px;
+    width: 100%;
+}
+
+
+
+
+.link_contact,
+.link_about,
+.link_products,
+.link_ru {
+    padding-top: 14px;
+    text-align: center;
+    padding-bottom: 14px;
+    padding-bottom: 0;
+
+
+
+}
+
+.link_products {
+    margin-top: 100px;
+}
+
+.link_about {
+    margin-top: 54px;
+}
+
+.link_contact {
+    margin-top: 100px;
+}
+
+
+
+
+/* Nav menu */
+.nav {
+
+    background: #000E32;
+    overflow: hidden;
+    right: 0;
+    width: 273px;
+    height: 100%;
+    margin-top: 0;
+    position:absolute;
+    z-index: 1;
+
+
+
+
+}
+
+.flag_ru_big {
+    display: block;
+    margin-top: 18px;
+
+
+}
+
+@media not screen and (win-width: 320px) and (max-width:374px) {
+    .flag_ru_big {
+        margin-left: 35px;
+    }
+    .nav {
+        position: absolute;
+    }
+   
+
+}
+
+@media not screen and (win-width: 375px) and (max-width:425px) {
+    .flag_ru_big {
+        margin-left: 55px;
+    }
+        .nav {
+            position: absolute;
+        }
+
+    }
+
+
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_ru {
+    display: none;
+}
+
+.logo {
+    width: 166.25px;
+    height: 35px;
+}
+
+
+
+.menu {
+
+    padding-top: 25px;
+
+
+}
+
+.nav {
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Menu Icon */
+.hamb {
+    cursor: pointer;
+    right: 0;
+    padding: 37px 38px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+/* Style label tag */
+
+.hamb-line {
+
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 35px;
+    background: rgba(255, 255, 255, 0.52);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    border-radius: 10px;
+
+
+}
+
+/* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after {
+
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.52);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    border-radius: 10px;
+}
+
+.hamb-line::before {
+    top: 10px;
+}
+
+.hamb-line::after {
+    top: -11px;
+}
+
+.side-menu {
+    display: none;
+
+}
+
+/* Hide checkbox */
+
+
+
+/* Toggle menu icon */
+.side-menu:checked~nav {
+    max-height: 100%;
+}
+
+.side-menu:checked~.hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked~.hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu:checked~.hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+/* Responsiveness */
+@media screen and (min-width: 426px) and (max-width:2560px)  {
+    .nav {
+        max-height: 46px;
+        top: 22px;
+        background-color: #0B183A;
+        float: right;
+        width: 395px;
+        right: 0;
+        height: 46px;
+        margin-right: 27px;
+        position: relative;
+        
+        
+    }
+
+    .page_ru {
+        display: block;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .flag_ru_big {
+        display: none;
+    }
+
+    .logo {
+        width: 245px;
+        height: 57px;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        padding: 0px;
+        height: 100%;
+
+    }
+
+    .link_about,
+    .link_contact,
+    .link_products,
+    .link_ru {
+        margin-top: 0;
+        padding-bottom: 14px;
+        
+    }
+
+    .link_about,
+    .link_products,
+    .link_ru {
+        margin-right: 35px;
+
+    }
+
+}
