@@ -61,7 +61,7 @@
 
 
 
-.link_contact,
+
 .link_about,
 .link_products,
 .link_ru {
@@ -69,10 +69,15 @@
     text-align: center;
     padding-bottom: 14px;
     padding-bottom: 0;
-
-
-
 }
+
+.link_contact {
+    padding-top: 14px;
+    text-align: center;
+    padding-bottom: 14px;
+    padding-bottom: 103px;
+}
+
 
 .link_products {
     margin-top: 100px;
@@ -96,10 +101,11 @@
     overflow: hidden;
     right: 0;
     width: 273px;
-    height: 100%;
+    /*height: 100%;*/
     margin-top: 0;
     position:absolute;
     z-index: 1;
+    
 
 
 
@@ -154,6 +160,8 @@
 .menu {
 
     padding-top: 25px;
+    height: 100%;
+    
 
 
 }
