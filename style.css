@@ -40,7 +40,8 @@ body {
     top: 0px;
     background-image: url(img/XTpm.gif);
     background-size: 1448px 853px;
-    background-blend-mode:screen
+    background-blend-mode:screen;
+    background-repeat: no-repeat;
     
     
     
