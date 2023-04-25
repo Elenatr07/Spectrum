@@ -236,7 +236,7 @@ body {
 }
 .first_list_central_ru {
     max-width: 1298px;
-    width: 100%;
+    
     height: 284px;
     left: 295px;
     top: 293px;
@@ -503,9 +503,14 @@ footer {
     .first_list_central {
         margin-left: 0px ;
     }
+
+    .first_list_central_ru {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     .first_list {
       background-image: none;
-      height: 600px;
+      height: 620px;
       
   }
   .title {
@@ -517,7 +522,7 @@ footer {
       line-height: 47px;
       text-align: center;
   }
-  .product_item, .product_item_1 {
+  .product_item, .product_item_1, .product_item_ru, .product_item_1_ru {
       display: flex;
       width: 100%;
       margin-left: 0;
@@ -528,6 +533,15 @@ footer {
   .brand_product_item {
       width: 100%;
   }
+  .brand_product_item_ru {
+    width: 100%;
+    margin-right: 0;
+}
+
+.brand_product_item_1_ru {
+    margin-left: 0;
+}
+
   .product_item_title_text {
       font-size: 15px;
       line-height: 30px;
@@ -538,7 +552,7 @@ footer {
       line-height: 30px;
       text-align: center;
   }
-  .products_list {
+  .products_list, .products_list_ru {
       margin-top: 37px;
   }
   .btn {
@@ -580,6 +594,15 @@ footer {
   height: 100%;
   margin-bottom: 53px;
  }
+ .contact_text_block_ru {
+    margin-left: 0;
+    margin-bottom: 53px;
+   }
+
+ .contact_text_ru {
+    font-size: 32px;
+    line-height: 47px;
+   }
  .form {
   
   width: 100%;
@@ -645,9 +668,14 @@ footer {
           margin-left: 0px ;
           
       }
+      .first_list_central_ru {
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
       .first_list {
         background-image: none;
-        height: 600px;
+        height: 620px;
     }
     .title {
         font-size: 24px;
@@ -658,7 +686,7 @@ footer {
         line-height: 47px;
         text-align: center;
     }
-    .product_item, .product_item_1 {
+    .product_item, .product_item_1, .product_item_ru, .product_item_1_ru {
         display: flex;
         width: 100%;
         margin-left: 0;
@@ -666,8 +694,17 @@ footer {
         padding-right: 37px;
         align-self: center;
     }
-    .brand_product_item {
+    .brand_product_item{
         width: 100%;
+    }
+
+    .brand_product_item_1_ru {
+        margin-left: 0;
+    }
+
+    .brand_product_item_ru {
+        width: 100%;
+        margin-right: 0;
     }
     .product_item_title_text {
         font-size: 15px;
@@ -679,9 +716,10 @@ footer {
         line-height: 30px;
         text-align: center;
     }
-    .products_list {
+    .products_list, .products_list_ru {
         margin-top: 37px;
     }
+    
     .btn {
         margin-bottom: 120px;
         margin-top: 85px;
@@ -711,7 +749,7 @@ footer {
     padding-left: 37px;
     padding-right: 37px;
    }
-   .contact_text_block {
+   .contact_text_block, .contact_text_block_ru {
     
     margin-left: 0;
     font-weight: 500;
@@ -720,6 +758,15 @@ footer {
     width: 100%;
     height: 100%;
     margin-bottom: 53px;
+   }
+
+   .contact_text_block_ru {
+    margin-left: 0;
+   }
+
+   .contact_text_ru {
+    font-size: 32px;
+    line-height: 47px;
    }
    .form {
     

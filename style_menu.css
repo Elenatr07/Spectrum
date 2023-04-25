@@ -107,6 +107,7 @@
     margin-top: 0;
     position: absolute;
     z-index: 1;
+    height: 620px;
 
 }
 
@@ -121,7 +122,7 @@
     justify-content: space-between;
 }
 
-.page_ru {
+.page_flag {
     display: none;
 }
 
@@ -247,7 +248,7 @@ ul {
 
     .nav {
         position: absolute;
-        height: 600px;
+        height: 620px;
     }
    
 
@@ -261,7 +262,7 @@ ul {
 
     .nav {
         position: absolute;
-        height: 600px;
+        height: 620px;
     }
     
 
@@ -274,7 +275,7 @@ ul {
         top: 22px;
         background-color: #0B183A;
         float: right;
-        width: 395px;
+        width: 444px;
         right: 0;
         height: 46px;
         margin-right: 27px;
@@ -285,7 +286,7 @@ ul {
         height: 70px;
     }
 
-    .page_ru {
+    .page_flag {
         display: block;
     }
 
