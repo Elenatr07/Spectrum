@@ -64,7 +64,7 @@ body {
     font-size: 15px;
     line-height: 18px;
     color: #FAF4F4;
-    padding: 13px 55px;
+    padding: 13px 50px;
     
     
 }
@@ -477,18 +477,17 @@ footer {
 
 .link_link:hover {
     color: #000E32;
-}
-
-.link_contact:hover {
     background: #e1c733;
 }
+
+
 
 .send-form:hover {
     background: #e1c733;
     color: #000E32;
 }
 
-@media screen and (min-width:320px) and (max-width: 376px) {
+@media screen and (min-device-width:320px) and (max-device-width: 389px) {
     .container{
       width: 100%;  
     }
