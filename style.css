@@ -374,7 +374,7 @@ input {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    width: 612px;
+    width: 100%;
     
 }
 .send-form {
@@ -505,6 +505,7 @@ footer {
     }
     .first_list {
       background-image: none;
+      height: 600px;
       
   }
   .title {
@@ -610,6 +611,8 @@ footer {
  }
  footer {
   margin-top: 118px;
+  font-size: 8px;
+ line-height: 9px;
  }
  .title_address, .title_contacts {
   font-size: 18px;
@@ -619,11 +622,13 @@ footer {
   font-size: 14px;
   line-height: 16px;
  }
+
+
    
     
 }
 
-@media screen and (min-width: 390px) and (max-width: 426px) {
+@media screen and (min-width: 390px) and (max-width: 450px) {
     .container{
         width: 100%;  
       }
@@ -638,10 +643,11 @@ footer {
       }
       .first_list_central {
           margin-left: 0px ;
+          
       }
       .first_list {
         background-image: none;
-        
+        height: 600px;
     }
     .title {
         font-size: 24px;
@@ -746,7 +752,11 @@ footer {
    }
    footer {
     margin-top: 118px;
+    font-size: 8px;
+ line-height: 9px;
    }
+
+ 
    .title_address, .title_contacts {
     font-size: 18px;
     line-height: 21px;

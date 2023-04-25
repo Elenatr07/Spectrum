@@ -1,5 +1,5 @@
 .header {
-    
+
     position: sticky;
     top: 0;
     width: 100%;
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #0B183A;
-    width: 100%;
+
 
 
 }
@@ -19,13 +19,15 @@
     display: flex;
     justify-content: flex-start;
     margin-left: 27px;
+    height: 35px;
+    margin-top: 25px;
 }
 
 /* Logo */
 .logo {
     display: inline-block;
 
-    margin-top: 25px;
+
 
 }
 
@@ -103,43 +105,16 @@
     width: 273px;
     /*height: 100%;*/
     margin-top: 0;
-    position:absolute;
+    position: absolute;
     z-index: 1;
-    
-
-
-
 
 }
 
 .flag_ru_big {
     display: block;
-    margin-top: 18px;
-
-
+    padding-top: 3px;
+    padding-bottom: 8px;
 }
-
-@media not screen and (win-width: 320px) and (max-width:374px) {
-    .flag_ru_big {
-        margin-left: 35px;
-    }
-    .nav {
-        position: absolute;
-    }
-   
-
-}
-
-@media not screen and (win-width: 375px) and (max-width:425px) {
-    .flag_ru_big {
-        margin-left: 55px;
-    }
-        .nav {
-            position: absolute;
-        }
-
-    }
-
 
 .header_menu {
     display: flex;
@@ -161,7 +136,7 @@
 
     padding-top: 25px;
     height: 100%;
-    
+
 
 
 }
@@ -265,9 +240,33 @@ ul {
     top: 0;
 }
 
+@media not screen and (win-width: 320px) and (max-width:374px) {
+    .flag_ru_big {
+        margin-left: 35px;
+    }
+
+    .nav {
+        position: absolute;
+        height: 600px;
+    }
+
+
+}
+
+@media not screen and (win-width: 375px) and (max-width:450px) {
+    .flag_ru_big {
+        margin-left: 55px;
+    }
+
+    .nav {
+        position: absolute;
+        height: 600px;
+    }
+
+}
 
 /* Responsiveness */
-@media screen and (min-width: 426px) and (max-width:2560px)  {
+@media screen and (min-width: 451px) and (max-width:2560px) {
     .nav {
         max-height: 46px;
         top: 22px;
@@ -278,8 +277,8 @@ ul {
         height: 46px;
         margin-right: 27px;
         position: relative;
-        
-        
+
+
     }
 
     .page_ru {
@@ -316,7 +315,7 @@ ul {
     .link_ru {
         margin-top: 0;
         padding-bottom: 14px;
-        
+
     }
 
     .link_about,
