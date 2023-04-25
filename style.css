@@ -509,7 +509,7 @@ footer {
         margin-right: 5px;
     }
     .first_list {
-      background-image: none;
+      background-size: 340px 620px ;
       height: 620px;
       
   }
@@ -674,7 +674,7 @@ footer {
         
     }
       .first_list {
-        background-image: none;
+        background-size: 420px 620px;
         height: 620px;
     }
     .title {
