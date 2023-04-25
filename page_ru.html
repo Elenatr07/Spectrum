@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energotrans</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -16,22 +17,31 @@
 <body>
     <div class="container">
         <div class="first_list">
-            <div class="header_page">
-               <div class="logo">
-                    <img src="img/logo_rus.svg" alt="logo">
-                </a></div> 
-                <div class="link_block_ru">
-                    <div class="link_ru"><a href="index.html" class="page_ru"> <img src="img/eng_flag.svg" alt="logo"></a></div> 
-                    <div class="link_products"><a href="#products" class="link">Продукты</a></div> 
-                    <div class="link_about"><a href="#about" class="link">О компании</a></div> 
-                    <div class="link_contact"><a href="#contact" class="link_link">Контакты</a></div> 
-                </div>   
-                       
-
-            </div>
+            <header class="header_page">
+                <div class="header_logo">
+                    <img src="img/logo_rus.svg" class="logo" alt="logo">
+                    <div class="flag_ru_big"> <a href="index.html"> <img src="img/en_flag_big.svg" alt=""></a></div> 
+                    
+                </div>
+                <!-- Logo -->
+                
+                <!-- Hamburger icon -->
+                <input class="side-menu" type="checkbox" id="side-menu"/>
+                <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+                <!-- Menu -->
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="link_ru"><a href="index.html" class="page_flag"> <img src="img/eng_flag.svg"
+                            alt="logo"></a></li>
+                        <li class="link_products"><a href="#products" class="link">Продукты</a></li>
+                        <li class="link_about"><a href="#about" class="link">О компании</a> </li>
+                        <li class="link_contact"><a href="#contact" class="link_link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
             
         <div class="first_list_central_ru">
-                <p>МЫ ПРЕДЛАГАЕМ ИННОВАЦИОННЫЕ<span class="solutions">РЕШЕНИЯ</span>
+                <p class="slogan">МЫ ПРЕДЛАГАЕМ ИННОВАЦИОННЫЕ<span class="solutions">РЕШЕНИЯ</span>
                 </p>
         </div>    
     </div>
@@ -118,6 +128,7 @@
                         </div>
                     </div> 
                 </div>  
+            </div>
         </div>
         
         <div class="contact" id="contact">
@@ -135,10 +146,12 @@
                     <input type="text" class="phone" name="phone" placeholder="1111-111-11-1">
                     <p class="title_form">Сообщение (поле обязательно)</p>
                     
-                    <textarea name="text" id="" cols="30" rows="10" class="text_field"
-                    placeholder="Ваше сообщение"></textarea>
-                    <button type="button" class="send-form">Отправить</button>
-                    <div class="status"></div>
+                    <div class="send_status">
+                        <textarea name="text" id="formtext" cols="30" rows="10" class="text_field"
+                    placeholder="Your messege"></textarea>
+                        <div class="status"></div>
+                    </div>
+                    <button type="button" class="send-form" onClick="setTimeout('clearform()', 2000 );">Отправить</button>
                 </form>
                 <div class="address">
                     <h3 class="title_address">Адрес</h3>
