@@ -249,6 +249,7 @@ ul {
         position: absolute;
         height: 600px;
     }
+   
 
 
 }
@@ -262,6 +263,7 @@ ul {
         position: absolute;
         height: 600px;
     }
+    
 
 }
 
@@ -277,8 +279,10 @@ ul {
         height: 46px;
         margin-right: 27px;
         position: relative;
+    }
 
-
+    .header_page {
+        height: 70px;
     }
 
     .page_ru {
