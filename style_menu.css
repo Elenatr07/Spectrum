@@ -117,6 +117,9 @@
     display: block;
     padding-top: 3px;
     padding-bottom: 8px;
+    width: 57px;
+    text-align: center;
+    
 }
 
 .header_menu {
@@ -248,7 +251,9 @@ ul {
 
 @media not screen and (win-width: 320px) and (max-width:374px) {
     .flag_ru_big {
-        margin-left: 35px;
+        
+        width: 87px;
+        text-align: center;
     }
 
     .nav {
